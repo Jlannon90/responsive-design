@@ -17,7 +17,6 @@ html, body {
 }
 
 .large-section-1 {
-  border: 1px solid red;
   padding: 0;
   background-image: url("../img/marketing.jpg");
   background-size: cover;
@@ -33,7 +32,6 @@ html, body {
 }
 
 .large-section-2 {
-  border: 1px solid red;
   padding: 0;
   background-image: url("../img/boy.jpg");
   background-size: cover;
@@ -47,7 +45,6 @@ html, body {
 }
 
 .small-section-1 {
-  border: 1px solid red;
   padding: 0;
   float: none;
   margin: 2vw auto;
@@ -56,7 +53,6 @@ html, body {
 }
 
 .small-section-2 {
-  border: 1px solid red;
   padding: 0;
   float: none;
   margin: 2vw auto;
@@ -65,7 +61,6 @@ html, body {
 }
 
 .small-section-3 {
-  border: 1px solid red;
   padding: 0;
   float: none;
   margin: 2vw auto;
@@ -74,7 +69,6 @@ html, body {
 }
 
 .small-section-4 {
-  border: 1px solid red;
   padding: 0;
   float: none;
   margin: 2vw auto;
@@ -112,6 +106,10 @@ h3 {
   font-weight: 550;
 }
 
+.material-icons {
+  position: relative;
+  top: 7px;
+}
 
 @media (min-width:992px) {
 
@@ -126,7 +124,7 @@ h3 {
   }
 
   h5 {
-    padding-top: 3vw;
+    padding-top: 2vw;
   }
 
   .small-text {
@@ -140,7 +138,6 @@ h3 {
    margin-left: 4vw;
    width: 44%;
    text-align: center;
-   padding-bottom: 1.70vw;
   }
 
   .small-section-2 {
@@ -148,7 +145,7 @@ h3 {
     margin-right: 4vw;
     width: 44%;
     text-align: center;
-    padding-bottom: 1.70vw;
+    padding-bottom: 1vw;
   }
 
   .small-section-3 {
@@ -156,7 +153,7 @@ h3 {
     margin-left: 4vw;
     width: 44%;
     text-align: center;
-    padding-bottom: 1.70vw;
+    padding-bottom: .7vw;
   }
 
   .small-section-4 {
@@ -181,31 +178,55 @@ h3 {
   .small-section-1 {
     float: left;
     height: 40vh;
-    width: 22%;
-    margin-left: 6vw;
+    width: 26%;
+    margin-left: 2vw;
+    padding-bottom: 0;
+    overflow-y: hidden;
 
   }
 
   .small-section-2 {
     float: right;
     height: 40vh;
-    width: 22%;
+    width: 26%;
     margin-right: 0;
+    padding-bottom: 0;
+    overflow-y: hidden;
+
   }
 
   .small-section-3 {
     float: left;
     height: 40vh;
-    width: 22%;
+    width: 26%;
     margin-left: 0;
+    padding-bottom: 0;
+    overflow-y: hidden;
+
   }
 
   .small-section-4 {
     float: left;
     height: 40vh;
-    width: 22%;
+    width: 26%;
     margin-right: 0;
-    margin-left: 6vw;
+    margin-left: 2vw;
+    padding-bottom: 0;
+    overflow-y: hidden;
+  }
+
+  h1 {
+    color: #505050;
+    font-size: 30px;
+
+  }
+
+  .large-text {
+    margin: 1vw;
+  }
+
+  .small-text {
+    position: absolute;
   }
 
 }
