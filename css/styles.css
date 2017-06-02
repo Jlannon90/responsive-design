@@ -11,47 +11,89 @@
 /*BODY AND HTML STYLING*/
 
 html, body {
- margin: 0;
+  background-color: lightgrey;
+
+
 }
 
 .large-section-1 {
   border: 1px solid red;
   padding: 0;
+  background-image: url("../img/marketing.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50vh;
+  float: none;
+  margin: 2vw auto;
+  background-color: white;
+  overflow: auto;
 }
 
 .large-section-2 {
   border: 1px solid red;
+  padding: 0;
+  background-image: url("../img/boy.jpg");
+  float: none;
+  margin: 2vw auto;
+  background-color: white;
+  overflow: auto;
 }
 
 .small-section-1 {
   border: 1px solid red;
   padding: 0;
+  float: none;
+  margin: 2vw auto;
+  background-color: white;
+  overflow: auto;
 }
 
 .small-section-2 {
   border: 1px solid red;
   padding: 0;
+  float: none;
+  margin: 2vw auto;
+  background-color: white;
+  overflow: auto;
 }
 
 .small-section-3 {
   border: 1px solid red;
   padding: 0;
+  float: none;
+  margin: 2vw auto;
+  background-color: white;
+  overflow: auto;
 }
 
 .small-section-4 {
   border: 1px solid red;
   padding: 0;
+  float: none;
+  margin: 2vw auto;
+  background-color: white;
+  overflow: auto;
 }
 
 
 img {
-  width: 100%;
+  float: left;
+  width: 50%;
+  padding: 3vw;
 }
+
+small-text {
+  float: right;
+  width: 50%;
+}
+
+
+
 
 @media screen and (min-width:600px) and (max-width:1000px) {
 
 }
 
 @media screen and (min-width:1001px) {
-  
+
 }
