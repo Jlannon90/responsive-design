@@ -113,7 +113,7 @@ h3 {
 }
 
 
-@media (min-width:992px) and (max-width:1200px) {
+@media (min-width:992px) {
 
   .image {
     float: none;
@@ -168,6 +168,44 @@ h3 {
 
 }
 
-@media screen and (min-width:1001px) {
+@media screen and (min-width:1201px) {
+
+  .large-section-1 {
+    float: left;
+  }
+
+  .large-section-2 {
+    float: right;
+  }
+
+  .small-section-1 {
+    float: left;
+    height: 40vh;
+    width: 22%;
+    margin-left: 6vw;
+
+  }
+
+  .small-section-2 {
+    float: right;
+    height: 40vh;
+    width: 22%;
+    margin-right: 0;
+  }
+
+  .small-section-3 {
+    float: left;
+    height: 40vh;
+    width: 22%;
+    margin-left: 0;
+  }
+
+  .small-section-4 {
+    float: left;
+    height: 40vh;
+    width: 22%;
+    margin-right: 0;
+    margin-left: 6vw;
+  }
 
 }
