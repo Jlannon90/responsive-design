@@ -11,7 +11,7 @@
 /*BODY AND HTML STYLING*/
 
 html, body {
-  background-color: lightgrey;
+  background-color: #f5f5f5;
 
 
 }
@@ -25,7 +25,7 @@ html, body {
   background-position: center;
   float: none;
   margin: 2vw auto;
-  height: 35vh;
+  height: 40vh;
   background-color: white;
   overflow: auto;
 
@@ -41,7 +41,7 @@ html, body {
   background-position: center;
   float: none;
   margin: 2vw auto;
-  height: 35vh;
+  height: 40vh;
   background-color: white;
   overflow: auto;
 }
@@ -82,7 +82,6 @@ html, body {
   overflow: auto;
 }
 
-
 img {
   float: left;
   width: 50%;
@@ -93,6 +92,7 @@ img {
   float: right;
   width: 50%;
   color: #696969;
+  height: 100%;
 }
 
 .large-text {
@@ -100,6 +100,10 @@ img {
   position: absolute;
   bottom: 0;
   margin: 4vw;
+}
+
+h3 {
+  font-size: 18px;
 }
 
 
