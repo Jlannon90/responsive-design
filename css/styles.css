@@ -20,21 +20,28 @@ html, body {
   border: 1px solid red;
   padding: 0;
   background-image: url("../img/marketing.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 50vh;
+  background-position: center;
   float: none;
   margin: 2vw auto;
+  height: 35vh;
   background-color: white;
   overflow: auto;
+
+
 }
 
 .large-section-2 {
   border: 1px solid red;
   padding: 0;
   background-image: url("../img/boy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   float: none;
   margin: 2vw auto;
+  height: 35vh;
   background-color: white;
   overflow: auto;
 }
@@ -82,12 +89,18 @@ img {
   padding: 3vw;
 }
 
-small-text {
+.small-text {
   float: right;
   width: 50%;
+  color: #696969;
 }
 
-
+.large-text {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  margin: 4vw;
+}
 
 
 @media screen and (min-width:600px) and (max-width:1000px) {
