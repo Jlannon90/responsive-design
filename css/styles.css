@@ -50,7 +50,7 @@ html, body {
   margin: 2vw auto;
   background-color: white;
   overflow: auto;
-  overflow-y: hidden;
+  
 }
 
 .small-section-2 {
@@ -59,7 +59,6 @@ html, body {
   margin: 2vw auto;
   background-color: white;
   overflow: auto;
-  overflow-y: hidden;
 }
 
 .small-section-3 {
@@ -68,7 +67,6 @@ html, body {
   margin: 2vw auto;
   background-color: white;
   overflow: auto;
-  overflow-y: hidden;
 }
 
 .small-section-4 {
@@ -77,7 +75,6 @@ html, body {
   margin: 2vw auto;
   background-color: white;
   overflow: auto;
-  overflow-y: hidden;
 }
 
 .image {
